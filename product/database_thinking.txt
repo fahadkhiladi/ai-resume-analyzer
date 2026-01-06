@@ -1,0 +1,31 @@
+Database Thinking (Simple)
+
+Data that should be saved:
+
+User ID or session ID
+
+Resume file name and extracted resume text
+
+Job description text
+
+Extracted skills from the resume
+
+Extracted skills from the job description
+
+Match percentage
+
+Matched skills list
+
+Missing skills list
+
+Date and time of analysis
+
+Data that can be temporary:
+
+Uploaded resume file (after text is extracted)
+
+Raw CV text before processing
+
+Intermediate NLP processing data
+
+Temporary matching calculations

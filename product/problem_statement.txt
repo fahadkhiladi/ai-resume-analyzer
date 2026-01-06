@@ -1,0 +1,9 @@
+Problem Statement
+
+This product is designed for students, fresh graduates, and job seekers who are applying for jobs.
+Many job seekers face the problem of not knowing whether their CV matches a specific job description.
+They often apply blindly and get rejected without understanding what is missing in their CV.
+This causes frustration and wastes time for both job seekers and employers.
+The product solves this problem by analyzing the CV and the job description automatically.
+It extracts skills, compares them, and gives a matching score.
+The system also provides clear suggestions on what skills or improvements are needed to increase the chances of getting shortlisted.

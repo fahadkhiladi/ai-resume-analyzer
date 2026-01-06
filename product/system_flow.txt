@@ -1,0 +1,19 @@
+System Flow 
+
+The user opens the React web application in a browser.
+
+The user uploads a CV (PDF or DOCX) and pastes the job description into the text area.
+
+The React frontend sends the CV file and job description to the FastAPI backend using an API request.
+
+The FastAPI backend extracts text from the uploaded CV using document processing tools.
+
+The backend uses NLP techniques to extract skills from both the CV and the job description.
+
+A matching algorithm compares the extracted skills from the CV with the job description skills.
+
+The backend calculates the match percentage, identifies matched skills and missing skills.
+
+The analysis results are sent back to the React frontend as a response.
+
+The frontend displays the match percentage, matched skills, and missing skills to the user.
