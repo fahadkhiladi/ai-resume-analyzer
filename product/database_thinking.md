@@ -1,6 +1,6 @@
-Database Thinking (Simple)
+# Database Thinking (Simple)
 
-Data that should be saved:
+## Data that should be saved:
 
 User ID or session ID
 
@@ -20,7 +20,7 @@ Missing skills list
 
 Date and time of analysis
 
-Data that can be temporary:
+## Data that can be temporary:
 
 Uploaded resume file (after text is extracted)
 
