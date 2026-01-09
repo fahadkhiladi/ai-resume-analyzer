@@ -3,3 +3,4 @@ uvicorn==0.40.0
 python-multipart
 pdfplumber
 python-docx
+spacy
