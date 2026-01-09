@@ -1,0 +1,81 @@
+Skill Extraction Test Results
+
+Test 1: Real Resume Text
+
+Input:
+A real CV containing skills like Python, SQL, Git, FastAPI, and Docker.
+
+Skills correctly detected:
+
+Python
+
+SQL
+
+Git
+
+FastAPI
+
+Docker
+
+Skills missed:
+
+PostgreSQL (mentioned indirectly as “database experience”)
+
+Linux (mentioned as “server environment”)
+
+Wrongly detected skills:
+
+None
+
+Observation:
+The system detects clearly written skills well, but may miss skills that are written indirectly or described in sentences instead of exact names.
+
+Test 2: Fake Resume Text
+
+Input:
+A fake CV with exaggerated or random skills such as “Expert in everything” and “Master of all technologies”.
+
+Skills correctly detected:
+
+None (only real skills from the predefined list are detected)
+
+Skills missed:
+
+Unreal or vague skills (correct behavior)
+
+Wrongly detected skills:
+
+None
+
+Observation:
+The system correctly ignores fake or non-technical skills that are not in the skill list.
+
+Test 3: Empty Resume Text
+
+Input:
+An empty text string.
+
+Skills correctly detected:
+
+None
+
+Skills missed:
+
+All (no input provided)
+
+Wrongly detected skills:
+
+None
+
+Observation:
+The system returns an empty result, which is correct behavior for empty input.
+
+Overall Conclusion
+
+The skill extraction works well for clearly written technical skills.
+
+Skills written indirectly or using different wording may be missed.
+
+The system does not falsely detect skills that are not in the predefined list.
+
+Accuracy can be improved in the future using advanced NLP techniques and synonym matching.
