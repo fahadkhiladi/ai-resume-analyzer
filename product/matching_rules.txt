@@ -1,0 +1,22 @@
+Resume Job Description Matching Rules
+
+Skill matching is based on comparing the skills extracted from the resume with the skills required in the job description.
+
+The match percentage is calculated using the formula:
+(Number of matched skills ÷ Number of required skills) × 100
+
+Only skills that appear in both the resume and the job description are counted as matched skills.
+
+If a required skill from the job description does not appear in the resume, it is counted as a missing skill.
+
+The match percentage is rounded to the nearest whole number for clear presentation to the user.
+
+Match strength is categorized as follows:
+
+70% and above: Strong match
+
+40% to 69%: Moderate match
+
+Below 40%: Weak match
+
+This matching logic helps users quickly understand how well their resume fits a specific job role and what skills they need to improve.
