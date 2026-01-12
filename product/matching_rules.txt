@@ -20,3 +20,8 @@ Match strength is categorized as follows:
 Below 40%: Weak match
 
 This matching logic helps users quickly understand how well their resume fits a specific job role and what skills they need to improve.
+
+
+
+
+
